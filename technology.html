@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="body_tech">
+    <header>
+      <nav>
+        <img src="./assets/shared/logo.svg" alt="Logo image" />
+        <i class="fas fa-bars menu-btn"></i>
+        <div class="nav non-active-menu">
+          <ul>
+            <div class="mobile-links">
+              <li>
+                <a href="index.html"
+                  ><p class="mobile-link-num">00</p>
+                  HOME</a
+                >
+              </li>
+            </div>
+            <div class="mobile-links">
+              <li>
+                <a href="destination.html" id="destination-link">
+                  <p class="mobile-link-num">01</p>
+                  DESTINATION</a
+                >
+              </li>
+            </div>
+            <div class="mobile-links">
+              <li>
+                <a href="crew.html"
+                  ><p class="mobile-link-num">02</p>
+                  CREW</a
+                >
+              </li>
+            </div>
+            <div class="mobile-links active">
+              <li>
+                <a href="technology.html"
+                  ><p class="mobile-link-num">03</p>
+                  TECHNOLOGY</a
+                >
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="tech">
+      <div class="intro_text">
+        <p>03</p>
+        <p>Space launch 101</p>
+      </div>
+      <div class="desktop-flex">
+        <img class="tech_img" />
+        <div class="left-flex">
+          <ul class="tech_nav">
+            <li class="active_tech" id="tech1">1</li>
+            <li id="tech2">2</li>
+            <li id="tech3">3</li>
+          </ul>
+          <div class="right-side">
+            <div class="intro_text_tech">
+              <p>The terminology ...</p>
+              <p id="name"></p>
+            </div>
+            <p class="desc" id="tech_desc"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/7615800276.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/scripts/scriptTech.js" type="module"></script>
+  </body>
+</html>

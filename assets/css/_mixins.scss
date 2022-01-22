@@ -1,0 +1,23 @@
+@mixin setBackground($path, $height) {
+  background-image: url($path);
+  background-size: 100% $height;
+  background-repeat: no-repeat;
+}
+
+@mixin setFlex($justify, $align) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin setBarlowCondenced() {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+@mixin setBarlow() {
+  font-family: "Barlow", sans-serif;
+}
+
+@mixin setBellefair() {
+  font-family: "Bellefair", serif;
+}
